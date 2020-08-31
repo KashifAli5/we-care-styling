@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Beway';
+    src: url('fonts/Beway-Light.woff2') format('woff2'),
+        url('fonts/Beway-Light.woff') format('woff'),
+        url('fonts/Beway-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beway';
+    src: url('fonts/Beway-Regular.woff2') format('woff2'),
+        url('fonts/Beway-Regular.woff') format('woff'),
+        url('fonts/Beway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    height: 100vh;
+}
+.pageWrapper {
+    background: url(../images/Balck-lives.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#believeInSection {
+    margin-top: 7%;
+}
+.navBar {
+    font-family: 'Beway';
+    font-size: 36px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    color: #333333;
+    padding-top: 20px;
+}
+span.updateColor {
+    color: #014380;
+}
+.navBar a {
+    color: #333333;
+}
+body a:hover {
+    text-decoration: none;
+}
+.sectionHeading h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    text-align: left;
+    color: #333333;
+} 
+.sectionHeading h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+.customButton {
+    display: inline-block;
+}
+.customButton a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 15px 40px;
+    background-color: #014380;
+    border-radius: 25px;
+}
+.customButton a:hover {
+    text-decoration: none;
+}
+.customButton a img {
+    width: 22px;
+    margin-left: 30px;
+    position: relative;
+    top: -2px;
+}
+.sectionHeading {
+    padding-bottom: 45px;
+}
+.videoContentWrapper video {
+    width: 100% !important;
+    border-radius: 12px;
+}
+.descriptionText {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    font-weight: normal;
+}
+.footerCopyRight {
+    font-family: 'Rubik', sans-serif;   
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 100px) ;
+}
+
+.modal-body h3{
+    font-family: 'Beway';
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 0.72px;
+    color: #333333;
+}
+.popupDescriptionText p {
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 30px;
+}
+.popupDescriptionText {
+    padding: 5px 15px;
+}
+.popupForm form input {
+    border-radius: 30px;
+    border: solid 1px #dfdfdf;
+    background-color: #ffffff;
+    width: 80%;
+    margin-bottom: 15px;
+    height: 50px;
+    padding-left: 15px;
+}
+.popupForm form button {
+    font-family: 'Rubik', sans-serif;  
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: #014380;
+    border: unset;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.popupForm form button img {
+    padding-left: 25px;;
+}
+.modal-body {
+    padding: 0px 10px 45px 10px;
+}
+.modal-content {
+    border-radius: 16px;
+}
+button.close {
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.modal-dialog {
+    max-width: 540px;
+}
+.playpause {
+    background-image:url(../images/video-play-icon.png);
+    background-repeat:no-repeat;
+    width: 15%;
+    height: 15%;    
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+    cursor: pointer;
+}
+.videoContentWrapper{
+    position:relative;
+
+}
+button:focus, input:focus {
+    outline: none;
+}
+video:focus {
+    outline: none;
+}
+.modal-dialog {
+    margin-top: 10%;
+}
+
+
+@media screen and (min-width: 1900px) {
+    #believeInSection {
+        margin-top: 15%;
+    }
+
+}
+@media screen and (min-width: 1850px) {
+    #believeInSection {
+        margin-top: 12%;
+    }
+
+}
+
+@media screen and (min-width: 1700px) {
+    #believeInSection {
+        margin-top: 10%;
+    }
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    #believeInSection {
+        margin-top: 3%;
+    }
+    .modal {
+    top: -33px;
+}
+
+}
+@media screen and (max-width: 1199px) {
+    body {
+        height: unset;
+    }
+    .footerCopyRight {
+        position: relative;
+        margin-top: 100px;
+        left: unset;
+    }
+    .sectionHeading h1 {
+        text-align: center;
+       
+    }
+    .sectionHeading h3 {
+        text-align: center;
+    }   
+    .videoContentWrapper {
+        margin-top: 35px;
+    } 
+    .customButton {
+        display: block;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .customButton a {
+        padding: 15px 30px;
+    }
+    .popupForm form input {
+        width: 100%;
+    }
+    .popupDescriptionText {
+        padding: 5px 0;
+    }
+
+}
